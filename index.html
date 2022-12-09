@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loc-search-engine</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+</head>
+<body>
+    <form>
+        <div class="form-group">
+          <label for="searchexample">Library of congress Search Engine</label>
+          <input type="search" class="form-control" id="search" aria-describedby="search" placeholder="Search!">
+          <small class="form-text text-muted"></small>
+        </div>
+        <select id ="form-select" >
+            <option selected>Select a format</option>
+            <option value="maps">maps</option>
+            <option value="audio recordings">audio recordings</option>
+            <option value="photo, print, drawing">photo, print, drawing</option>
+
+          </select>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <script src ="./assets/script.js"></script>
+      </form>
+</body>
+</html>
